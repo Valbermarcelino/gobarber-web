@@ -8,7 +8,7 @@ import Button from '../../components/Button';
 
 import { Container, Content, Background } from './styles';
 
-const SingIn: React.FC = () => (
+const SignIn: React.FC = () => (
   <Container>
     <Content>
       <img src={logoImg} alt="GoBarber" />
@@ -40,4 +40,4 @@ const SingIn: React.FC = () => (
   </Container>
 );
 
-export default SingIn;
+export default SignIn;
